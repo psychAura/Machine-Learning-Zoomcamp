@@ -27,9 +27,9 @@ Basic Python Programming Language
 
 
 ### Folder guidance 📂
-Each folder contains lesson notes, practice notes and final Project on topic.
+Each folder contains practice notes and/or final Project on topic.
 
--I've added a sub Readme file on every project folder to guide you through my projects.
+-I'll add a sub Readme file on every project folder to guide you through my projects.
 
 ### Additions, Suggestions, Corrections and Collaboration.
 
