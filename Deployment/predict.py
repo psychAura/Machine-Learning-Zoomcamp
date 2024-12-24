@@ -51,4 +51,8 @@ def predict():
     return jsonify(results)
 
 if __name__ == "__main__":
-    app.run(debug=True, host='0.0.0.0', port=9696)
+    app.run(debug=True, host='0.0.0.0', port=8080)
+
+#waitress is a WSGI server used for production deployment.
+    #from waitress import serve
+    #serve(app, host="0.0.0.0", port=8080)
