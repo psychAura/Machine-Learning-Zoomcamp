@@ -3,6 +3,7 @@ import pickle
 from flask import Flask
 from flask import request #converts reuqest into json
 from flask import jsonify  #converts response into json
+from waitress import serve
 
 #import model
 model_file = 'model_C=1.0.bin'
@@ -51,7 +52,7 @@ def predict():
     return jsonify(results)
 
 if __name__ == "__main__":
-    app.run(debug=True, host='0.0.0.0', port=8080)
+    serve(app, host='0.0.0.0', port=8080)
 
 #waitress is a WSGI server used for production deployment.
     #from waitress import serve

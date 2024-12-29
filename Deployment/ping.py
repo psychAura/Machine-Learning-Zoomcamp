@@ -1,7 +1,7 @@
 #how to initiate flask sample.
 
 from flask import Flask
-
+from waitress import serve
 app= Flask('ping')
 
 @app.route('/ping.py', methods = ['GET'])
