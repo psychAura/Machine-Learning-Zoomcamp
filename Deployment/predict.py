@@ -57,3 +57,8 @@ if __name__ == "__main__":
 #waitress is a WSGI server used for production deployment.
     #from waitress import serve
     #serve(app, host="0.0.0.0", port=8080)
+
+    ## Dcoker commands
+    ##build - docker build -t name of build(zoomcamp-test . )
+    ##run - docker run -it --rm --entrypoint:bash -p 8080:8080 --zoomcamp-test
+    ##waitress cli - waitress-serve --listen=0.0.0.0:port predict:app
