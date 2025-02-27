@@ -19,6 +19,7 @@ Contents
 	•	📊 Data Visualization: Scatter plots, regression lines, and residual plots for insights.
 
 Technologies Used
+
 	•	🐍 Python
  
 	•	📚 NumPy & Pandas (Data manipulation)
@@ -30,8 +31,12 @@ Technologies Used
 	•	📓 Jupyter Notebook (Code execution & analysis)
 
 Setup & Usage
+
 	1.	Clone the repository: git clone https://github.com/psychAura/Machine-Learning-Zoomcamp.git
+ 
 cd Machine-Learning-Zoomcamp/Linear Regression
-  2.  Run the Jupyter Notebook
-  3. Explore and Train the Model in the provided notebook
+
+  2.  Run the Jupyter NotebooK
+     
+  4. Explore and Train the Model in the provided notebook
   
